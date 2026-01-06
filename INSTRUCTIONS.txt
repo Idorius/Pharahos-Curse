@@ -3,6 +3,9 @@ INSTRUCTIONS POUR PUBLIER SUR GITHUB
 
 Votre projet "Pharaoh's Curse" est pret a etre publie sur GitHub.
 
+⚠️ CORRECTION IMPORTANTE :
+Si vous avez deja pousse vers Urioxi/Pharahos-Curse, executez d'abord fix_remote.bat
+
 ETAPES A SUIVRE :
 
 1. Ouvrez l'invite de commande Windows (cmd.exe) ou PowerShell
@@ -35,6 +38,7 @@ FICHIERS PREPARES :
 - .gitignore : exclut les fichiers systeme
 - README.md : description du projet mise a jour
 - config/ : dossier pour les configurations futures
+- fix_remote.bat : script pour corriger le remote si besoin
 
 En cas de probleme, verifiez que :
 - Git est installe (telechargeable sur https://git-scm.com/)
