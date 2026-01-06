@@ -5,6 +5,7 @@ Votre projet "Pharaoh's Curse" est pret a etre publie sur GitHub.
 
 ⚠️ CORRECTION IMPORTANTE :
 Si vous avez deja pousse vers Urioxi/Pharahos-Curse, executez d'abord fix_remote.bat
+Si vous avez l'erreur "refusing to merge unrelated histories", utilisez fix_merge.bat ou force_sync.bat
 
 ETAPES A SUIVRE :
 
@@ -38,7 +39,9 @@ FICHIERS PREPARES :
 - .gitignore : exclut les fichiers systeme
 - README.md : description du projet mise a jour
 - config/ : dossier pour les configurations futures
-- fix_remote.bat : script pour corriger le remote si besoin
+- fix_remote.bat : corrige l'URL du remote
+- fix_merge.bat : resout les conflits de merge non lie
+- force_sync.bat : synchronisation forcee (ecrase l'historique local)
 
 En cas de probleme, verifiez que :
 - Git est installe (telechargeable sur https://git-scm.com/)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Pharaoh's Curse
 
 Projet de Roguelike Égyptien
@@ -39,3 +40,6 @@ Assurez-vous d'être connecté avec le compte owner (Urioxi) pour pousser les mo
 
 ## Développement
 Projet en cours de développement. Plus de détails à venir.
+=======
+# Pharahos-Curse
+>>>>>>> b905ecd44f01707aaffb5f06d52e285a04feb436
