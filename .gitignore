@@ -1,0 +1,46 @@
+# System files and folders
+AppData/
+.vscode/extensions/
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+*.exe
+*.dll
+
+# IDE files
+.vscode/settings.json
+.idea/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Unity/C#
+Library/
+Temp/
+Obj/
+*.csproj.user
+*.sln.DotSettings.user
+
+# Game development
+*.unity
+*.asset
+*.meta
+*.prefab

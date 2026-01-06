@@ -1,0 +1,42 @@
+INSTRUCTIONS POUR PUBLIER SUR GITHUB
+====================================
+
+Votre projet "Pharaoh's Curse" est pret a etre publie sur GitHub.
+
+ETAPES A SUIVRE :
+
+1. Ouvrez l'invite de commande Windows (cmd.exe) ou PowerShell
+   - Appuyez sur Win + R, tapez "cmd" et appuyez sur Entree
+
+2. Naviguez vers le dossier du projet :
+   cd "C:\Users\eliot\Desktop\Idorius\Pharaoh's Curse"
+
+3. Executez ces commandes une par une :
+
+   git init
+
+   git add .
+
+   git commit -m "Initial commit"
+
+   git branch -M main
+
+   git remote add origin https://github.com/Idorius/Pharahos-Curse.git
+
+   git push -u origin main
+
+4. Si vous etes invite a vous authentifier :
+   - Utilisez vos identifiants GitHub (compte Urioxi)
+
+5. Le projet sera alors disponible sur :
+   https://github.com/Idorius/Pharahos-Curse
+
+FICHIERS PREPARES :
+- .gitignore : exclut les fichiers systeme
+- README.md : description du projet mise a jour
+- config/ : dossier pour les configurations futures
+
+En cas de probleme, verifiez que :
+- Git est installe (telechargeable sur https://git-scm.com/)
+- Vous avez acces en ecriture au dossier
+- Vous etes connecte a Internet
